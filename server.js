@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const db = require("./db");
 
-app.use("/dist", express.static(path.join(__dirname, "dist")));
+// app.use("/dist", express.static(path.join(__dirname, "dist")));
 
 app.use("/assets", express.static(path.join(__dirname, "assets")));
 
